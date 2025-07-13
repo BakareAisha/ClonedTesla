@@ -145,68 +145,26 @@ padding: 15px;
     margin-bottom: 150px;
     margin-left: 170px;
 }
-@media (max-width: 768px) {
-  .container1 {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .container2,
-  .container3 {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .img1 {
-    width: 80px;
-    margin: 0 auto;
-  }
-
-  .model {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .lease {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .container4 {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 150px;
-    gap: 15px;
-    padding: 0 20px;
-  }
-
-  .btn1,
-  .btn2,
-  .btn3 {
-    width: 100%;
-    max-width: 300px;
-    font-size: 14px;
-  }
-
-  .text1,
-  .text2,
-  .text3 {
-    margin: 5px 0;
-    font-size: 14px;
-  }
-}
-
-/* 📱 Tiny Phones */
-@media (max-width: 480px) {
-  .model {
-    font-size: 22px;
-  }
-
-  .btn1,
-  .btn2,
-  .btn3 {
-    font-size: 13px;
-  }
+@media screen and (max-width: 768px) {
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2, .container3{
+        text-align: center;
+    }
+    .btn2{
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+    }
+    .container4{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .btn3{
+        width: 90%;
+    }
+    
 }
